@@ -1,4 +1,5 @@
 Video del testing: https://drive.google.com/file/d/1q_5xNqoP2W5NDi8mU3_l21cqqMTBgvMI/view?usp=sharing
+
 Archivos modificados: MauiApp1 -> MainPage.xaml && MainPage.xaml.cs
 
 
