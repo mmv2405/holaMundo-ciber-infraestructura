@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Image
+                Source="udg_logo.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a hovercraft number nine"/>
+
+            <Label
+                Text="Hola Mundo!"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1"/>
+
+            <Entry
+                x:Name="Contra1"
+                Placeholder="Inserta tu contraseña"
+                TextColor="white"
+                FontSize="16"/>
+
+            <Entry
+                x:Name="Contra2"
+                Placeholder="Confirma tu contraseña"
+                TextColor="white"
+                FontSize="16"/>
+
+            <Button
+                x:Name="ValidarBtn"
+                Text="Validar contraseña"
+                SemanticProperties.Hint="Valida las contraseñas"
+            
+                Clicked="ValidarContraseñas"
+                />
+
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
